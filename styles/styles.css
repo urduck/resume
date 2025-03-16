@@ -148,6 +148,11 @@ a:hover {
         padding: 15px;
     }
 
+    .name {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+
     .photo img {
         width: 150px;
         height: 150px;
