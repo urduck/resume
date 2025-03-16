@@ -163,6 +163,7 @@ a:hover {
     }
 
     .contact-info {
+        margin: 7px 0;
         padding-top: 100px;
     }
 }
