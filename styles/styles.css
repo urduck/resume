@@ -1,1 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #2d2d23;
+    color: #f2e0cf;
+    overflow-x: hidden;
+}
 
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #2d2d23;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+}
+
+h1, h2, h3 {
+    color: #d4c7b4;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.name {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+}
+
+.photo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.photo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+}
+
+.contact-info {
+    text-align: right;
+    margin-bottom: 20px;
+    padding-top: 120px; 
+}
+
+.contact-info p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.contact-info img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    filter: invert(1);
+}
+
+.section {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.section ul li {
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 4px solid #854628;
+    border-radius: 4px;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+}
+
+.skills ul li {
+    background: #854628;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.code {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .container {
+        padding: 15px;
+    }
+
+    .photo img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .skills ul li {
+        font-size: 0.8rem;
+    }
+
+    .contact-info {
+        padding-top: 100px;
+    }
+}
